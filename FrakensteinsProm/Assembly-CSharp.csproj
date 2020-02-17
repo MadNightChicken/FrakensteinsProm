@@ -62,8 +62,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DiceScripts\DiceManager.cs" />
     <Compile Include="Assets\DiceScripts\DiceObject.cs" />
+    <Compile Include="Assets\DiceScripts\DiceTray.cs" />
     <Compile Include="Assets\DiceScripts\DragHandler.cs" />
+    <Compile Include="Assets\DiceScripts\SimpleObjectPool.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Joe/Documents/SMNFC/Projects/FrakensteinsProm/FrakensteinsProm/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
