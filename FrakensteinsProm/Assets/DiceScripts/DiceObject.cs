@@ -12,7 +12,7 @@ public class DiceObject : MonoBehaviour
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        diceSides = Resources.LoadAll<Sprite>("DiceSides/");
+        diceSides = Resources.LoadAll<Sprite>("DiceSides/SS_Dice");
         RollTheDice();
     }
 
