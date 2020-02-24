@@ -14,10 +14,10 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     {
         itemBeingDragged = gameObject;
         startPosition = transform.position;
-        startParent = transform.parent;
+        //startParent = transform.parent;
         GetComponent<CanvasGroup>().blocksRaycasts = false;
-        defaultparent = startParent.parent.parent.parent.transform;
-        transform.SetParent(defaultparent);
+        //defaultparent = startParent.parent.parent.parent.transform;
+        //transform.SetParent(defaultparent);
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -29,10 +29,10 @@ public class DragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
     {
         itemBeingDragged = null;
         GetComponent<CanvasGroup>().blocksRaycasts = true;
-        if (transform.parent == startParent || transform.parent == defaultparent)
-        {
-            transform.position = startPosition;
-            transform.parent = startParent;
-        }
+        //if (transform.parent == startParent || transform.parent == defaultparent)
+        //{
+        //    transform.position = startPosition;
+        //    transform.parent = startParent;
+        //}
     }
 }
