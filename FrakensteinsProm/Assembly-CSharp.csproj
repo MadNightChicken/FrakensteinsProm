@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\DiceScripts\DiceManager.cs" />
     <Compile Include="Assets\DiceScripts\DiceObject.cs" />
+    <Compile Include="Assets\DiceScripts\DiceSlot.cs" />
     <Compile Include="Assets\DiceScripts\DiceTray.cs" />
     <Compile Include="Assets\DiceScripts\DragHandler.cs" />
     <Compile Include="Assets\DiceScripts\SimpleObjectPool.cs" />
