@@ -132,8 +132,8 @@ GameObject:
   - component: {fileID: 27996504}
   - component: {fileID: 27996506}
   - component: {fileID: 27996505}
-  - component: {fileID: 27996507}
   - component: {fileID: 27996508}
+  - component: {fileID: 27996507}
   m_Layer: 5
   m_Name: DiceSlot
   m_TagString: Untagged
@@ -149,7 +149,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27996503}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1691389759}
