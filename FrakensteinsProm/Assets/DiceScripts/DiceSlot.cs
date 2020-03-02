@@ -5,6 +5,8 @@ using UnityEngine.EventSystems;
 
 public class DiceSlot : MonoBehaviour, IDropHandler
 {
+    public GameObject incubator;
+
     public GameObject dice
     {
         get
@@ -19,11 +21,14 @@ public class DiceSlot : MonoBehaviour, IDropHandler
 
     public void OnDrop(PointerEventData eventData)
     {
-        Debug.Log("dragged");
-        //if (!dice)
-        //{
+        var thing = incubator.GetComponent<Incubator>();
+        var diceObject = DragHandler.itemBeingDragged.GetComponent<DiceObject>();
+        //Dice formula
+        if (!dice && thing.CanUseDice(diceObject.value))
+        {
+            thing.RunIncubate(diceObject.value);
             DragHandler.itemBeingDragged.transform.SetParent(transform);
-            //do stuff
-        //}
+        //do stuff
+        }
     }
 }

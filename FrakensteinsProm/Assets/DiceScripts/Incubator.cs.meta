@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: 4915bb986704e374a83fcea8225ce497
+guid: 95b34e6915a972e4282b29a13402544d
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - incubator: {fileID: 8916212755848607636, guid: a69aae8313f4c6f4fa76fc91ced4757d,
-      type: 3}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

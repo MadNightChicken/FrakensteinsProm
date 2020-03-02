@@ -13,6 +13,8 @@
 /FrakensteinsProm/Library
 /FrakensteinsProm/Logs
 /FrakensteinsProm/Temp
+/FrakensteinsProm/obj
+/FrakensteinsProm/.vs
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
