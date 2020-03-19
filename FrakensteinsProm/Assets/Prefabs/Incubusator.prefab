@@ -65,8 +65,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 8364129340482550536, guid: 33765503dc0bfe943856ba3d61d805b4,
+    type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -211,7 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4915bb986704e374a83fcea8225ce497, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  incubator: {fileID: 0}
+  incubator: {fileID: 8916212755848607636}
 --- !u!1 &8916212755583278117
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,7 +303,7 @@ GameObject:
   - component: {fileID: 8916212755848607634}
   - component: {fileID: 7372954973677076608}
   m_Layer: 5
-  m_Name: Incubator
+  m_Name: Incubusator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

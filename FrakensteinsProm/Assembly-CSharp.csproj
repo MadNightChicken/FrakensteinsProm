@@ -68,6 +68,8 @@
     <Compile Include="Assets\DiceScripts\DiceTray.cs" />
     <Compile Include="Assets\DiceScripts\DragHandler.cs" />
     <Compile Include="Assets\DiceScripts\Incubator.cs" />
+    <Compile Include="Assets\DiceScripts\Incubusator.cs" />
+    <Compile Include="Assets\DiceScripts\LimbGrower.cs" />
     <Compile Include="Assets\DiceScripts\SimpleObjectPool.cs" />
     <Compile Include="Assets\TownScripts\Time.cs" />
     <Reference Include="Unity.Timeline.Editor">

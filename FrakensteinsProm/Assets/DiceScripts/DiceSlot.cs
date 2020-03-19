@@ -28,7 +28,7 @@ public class DiceSlot : MonoBehaviour, IDropHandler
         {
             thing.RunIncubate(diceObject.value);
             DragHandler.itemBeingDragged.transform.SetParent(transform);
-        //do stuff
+            Destroy(dice);
         }
     }
 }
